@@ -1,0 +1,14 @@
+{
+    "name": "rsanl/frontend-store",
+    "description": "Proyecto de frontend store",
+    "type": "project",
+    "authors": [
+        {
+            "name": "rsanlazaro",
+            "email": "rsanlazaro@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1.2"
+    }
+}
