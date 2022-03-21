@@ -35,21 +35,6 @@ $products = json_decode($productsJSON);
 
             <div class="grid">
 
-                <div class="producto">
-                    <a href="producto.php?id=1">
-                        <img class="producto__imagen" src="build/img/1.jpg" alt="imagen camisa">
-                        <div class="producto__informacion">
-                            <p class="producto__nombre">PRODUCTO</p>
-                            <p class="producto__precio">$35</p>
-                        </div>
-                    </a>
-                </div>
-
-                <?php
-                echo "HOLAAAA"; 
-                ?>
-
-
                 <?php
                 foreach ($products as $product) : ?>
                     <div class="producto">

@@ -62,7 +62,7 @@ $id = $_GET["id"] - 1
     <p class="footer__texto">
       Frontend Store - Todos los derechos reservados
     </p>
-    <script src="src/js/app.js"></script>
+    <script src="build/js/app.js"></script>
   </footer>
 </body>
 
