@@ -1,5 +1,5 @@
 <?php
-$productsJSON = file_get_contents("./src/data/products.json");
+$productsJSON = file_get_contents("./products.json");
 $products = json_decode($productsJSON);
 $id = $_GET["id"] - 1
 ?>
