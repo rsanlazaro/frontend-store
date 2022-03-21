@@ -45,6 +45,10 @@ $products = json_decode($productsJSON);
                     </a>
                 </div>
 
+                <?php
+                echo "HOLAAAA"; 
+                ?>
+
 
                 <?php
                 foreach ($products as $product) : ?>
