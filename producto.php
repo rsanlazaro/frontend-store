@@ -37,7 +37,7 @@ $id = $_GET["id"] - 1
     <div class="camisa">
       <img class="camisa__imagen" src="build/img/<?php echo $products[$id]->id ?>.jpg" alt="producto imagen" />
       <div class="camisa__contenido">
-        <p>
+        <p class="camisa__datos">
           <?php echo $products[$id]->description ?>
           $<?php echo $products[$id]->price ?>
         </p>
